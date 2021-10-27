@@ -1,0 +1,78 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+body {
+    font-family: 'Gotham', sans-serif;
+    height: 100%;
+    background: #232323;
+    align-content: center;
+    border: none;
+    margin: 1vw;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.center {
+    justify-content: center;
+    padding-left: 20vw;
+}
+
+.TablePlaylist {
+    display: flex;
+    background-color: #323232;
+    align-items: center;
+    justify-content: center;
+}
+
+.PlaylistRow {
+    color: aliceblue;
+    background-color: #232323;
+}
+
+.PlaylistRow:nth-child(even) {
+    background-color: #323232;
+}
+
+th {
+    color: aliceblue;
+    width: 40vw;
+    padding-left: 10vw;
+}
+
+.TitlePlaylist {
+    color: #04AA6D;
+}
+
+.ContentPlaylist {
+    color: aliceblue;
+}
+
+.AddPlaylist {
+    flex-direction: row;
+}
+
+.InputPlaylist {
+    padding: 10px;
+    margin: 5px;
+    width: 30vw;
+    border-radius: 20px;
+    border: none;
+}
+
+.Btn {
+    background-color: #04AA6D;
+    color: aliceblue;
+    font-family: 'Gotham', sans-serif;
+    border: none;
+    padding: 10px;
+    border-radius: 25%;
+}
+
+.Btn:hover {
+    opacity: .9;
+}
+
+.half {
+    border: 1px solid #04AA6D;
+}
