@@ -1,78 +1,83 @@
-@import url('http://fonts.cdnfonts.com/css/gotham');
+@import url("http://fonts.cdnfonts.com/css/gotham");
+
+*{
+  font-family:"gotham", sans-serif;
+  color: aliceblue;
+}
 body {
-    font-family: 'Gotham', sans-serif;
-    height: 100%;
-    background: #232323;
-    align-content: center;
-    border: none;
-    margin: 1vw;
+  height: 100%;
+  background: #232323;
+  align-content: center;
+  border: none;
+  margin: 1vw;
 }
 
-main{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.center {
-    justify-content: center;
-    padding-left: 20vw;
-}
-
-.TablePlaylist {
-    display: flex;
-    background-color: #323232;
-    align-items: center;
-    justify-content: center;
-}
-
-.PlaylistRow {
-    color: aliceblue;
-    background-color: #232323;
-}
-
-.PlaylistRow:nth-child(even) {
-    background-color: #323232;
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 th {
-    color: aliceblue;
-    width: 40vw;
-    padding-left: 10vw;
+  
+  width: 40vw;
+  padding-left: 10vw;
+}
+.center {
+  justify-content: center;
+  padding-left: 20vw;
+}
+
+.TablePlaylist {
+  display: flex;
+  background-color: #323232;
+  align-items: center;
+  justify-content: center;
+}
+
+.PlaylistRow {
+  background-color: #232323;
+}
+
+.PlaylistRow:nth-child(even) {
+  background-color: #323232;
 }
 
 .TitlePlaylist {
-    color: #04AA6D;
-}
-
-.ContentPlaylist {
-    color: aliceblue;
+  color: #04aa6d;
 }
 
 .AddPlaylist {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .InputPlaylist {
-    padding: 10px;
-    margin: 5px;
-    width: 30vw;
-    border-radius: 20px;
-    border: none;
+  color: #323232;
+  padding: 10px;
+  margin: 5px;
+  width: 30vw;
+  border-radius: 20px;
+  border: none;
+}
+
+.LinkVideo{
+  margin: 1vw;
+  color:#04aa6d;
 }
 
 .Btn {
-    background-color: #04AA6D;
-    color: aliceblue;
-    font-family: 'Gotham', sans-serif;
-    border: none;
-    padding: 10px;
-    border-radius: 25%;
+  background-color: #04aa6d;
+  color: aliceblue;
+  font-family: "Gotham", sans-serif;
+  border: none;
+  padding: 10px;
+  border-radius: 25%;
 }
 
 .Btn:hover {
-    opacity: .9;
+  opacity: 0.9;
 }
 
 .half {
-    border: 1px solid #04AA6D;
+  border: 1px solid #04aa6d;
 }
